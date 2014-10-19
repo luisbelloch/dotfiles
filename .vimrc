@@ -3,6 +3,7 @@ execute pathogen#infect()
 set nocompatible
 set hidden
 set mouse=a
+set noswapfile
 
 syntax on
 filetype plugin indent on
