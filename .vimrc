@@ -46,9 +46,9 @@ let go_highlight_extra_types=1
 let go_highlight_space_tab_error=1
 let go_highlight_trailing_whitespace_error=1
 
-autocmd FileType ruby setlocal tabstop=2
-autocmd FileType ruby setlocal shiftwidth=2
-autocmd FileType ruby setlocal softtabstop=2
+autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 autocmd FileType go setlocal noexpandtab
 autocmd FileType go setlocal tabstop=4
@@ -61,7 +61,7 @@ autocmd FileType go compiler go
 " Color scheme
 set t_Co=256
 colorscheme tomorrow
-hi Search term=reverse cterm=reverse gui=reverse ctermfg=237
+" hi Search term=reverse cterm=reverse gui=reverse ctermfg=237
 
 " CTRLP
 let g:ctrlp_working_path_mode = 'ra'
@@ -70,6 +70,7 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn|node_modules|bower_components)$',
   \ 'file': '\v\.(exe|so|dll)$'
   \ }
+
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
