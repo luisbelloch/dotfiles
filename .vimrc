@@ -55,6 +55,8 @@ autocmd FileType go setlocal tabstop=4
 
 autocmd BufEnter Makefile setlocal noexpandtab
 
+au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/*,nginx*conf if &ft == '' | setfiletype nginx | endif 
+
 set omnifunc=syntaxcomplete#Complete
 autocmd FileType go compiler go
 
