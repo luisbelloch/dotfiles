@@ -63,6 +63,7 @@ autocmd FileType go compiler go
 " Color scheme
 set t_Co=256
 colorscheme tomorrow
+" hi Search term=reverse cterm=reverse gui=reverse ctermfg=237
 
 " CTRLP
 let g:ctrlp_working_path_mode = 'ra'
