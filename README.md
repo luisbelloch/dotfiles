@@ -2,8 +2,8 @@ It contains configurations for vim, bash, tmux and others.
 
 Install some dependencies first and then copy or symlink dot files as required. No install script, sorry.
 
-``
-$ brew install autojump ctags macvim cscope tmux
+```
+$ brew install ctags direnv macvim cscope tmux
 ```
 
 It assumes [Go](http://golang.org/) is installed.

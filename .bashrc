@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #[[ -s "/Users/luis/.gvm/bin/gvm-init.sh" ]] && source "/Users/luis/.gvm/bin/gvm-init.sh"
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+eval "$(direnv hook bash)"
 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOPATH/bin
+export PATH=~/.bin:$PATH
 
 #export http_proxy=http://username:password@proxy:3128
 #export https_proxy=$http_proxy
