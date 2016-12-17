@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set nocompatible
 set hidden
 set mouse=a
@@ -52,6 +50,7 @@ autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 autocmd FileType go setlocal noexpandtab
 autocmd FileType go setlocal tabstop=4
+let g:go_disable_autoinstall = 0
 
 autocmd BufEnter Makefile setlocal noexpandtab
 
