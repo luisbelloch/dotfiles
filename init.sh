@@ -12,3 +12,5 @@ ln -f -s $repo/.tmux.conf
 ln -f -s $repo/.config/fish/config.fish
 popd > /dev/null
 
+git config --global alias.tree "log --oneline --decorate --graph"
+
