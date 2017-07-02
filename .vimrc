@@ -6,7 +6,8 @@ set noswapfile
 syntax on
 filetype plugin indent on
 set encoding=utf-8
-set guifont=Source\ Code\ Pro\ Light:h13
+set guifont=SF\ Mono:h14
+" set guifont=Source\ Code\ Pro\ Light:h12
 
 set guioptions-=r " right scrollbar
 set guioptions-=L " left scrollbar
@@ -45,6 +46,8 @@ let go_highlight_space_tab_error=1
 let go_highlight_trailing_whitespace_error=1
 
 autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
 

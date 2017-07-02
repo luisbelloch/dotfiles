@@ -19,9 +19,6 @@
 [submodule ".vim/bundle/vim-gitgutter"]
 	path = .vim/pack/luisbelloch/start/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
-[submodule ".vim/bundle/vim-gocode"]
-	path = .vim/pack/luisbelloch/start/vim-gocode
-	url = git@github.com:Blackrush/vim-gocode.git
 [submodule ".vim/bundle/vim-sneak"]
 	path = .vim/pack/luisbelloch/start/vim-sneak
 	url = https://github.com/justinmk/vim-sneak

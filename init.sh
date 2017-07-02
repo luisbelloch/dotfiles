@@ -1,5 +1,6 @@
 #!/bin/bash
 set -eu -o pipefail
+git submodule update --init --recursive
 readonly repo=$(pwd)
 pushd ~ > /dev/null
 ln -f -s $repo/.bin
