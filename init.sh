@@ -8,5 +8,7 @@ ln -f -s $repo/.bash_profile
 ln -f -s $repo/.bashrc
 ln -f -s $repo/.vim
 ln -f -s $repo/.vimrc
+ln -f -s $repo/.tmux.conf
+ln -f -s $repo/.config/fish/config.fish
 popd > /dev/null
 
