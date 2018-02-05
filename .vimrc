@@ -39,6 +39,8 @@ nnoremap <leader>g :TagbarToggle<CR>
 inoremap <C-Space> <C-x><C-o>
 inoremap <C-@> <C-Space>
 
+autocmd FileType python map <leader>r :w<cr>:!python %<cr>
+
 let g:user_emmet_leader_key='<C-E>'
 
 let go_highlight_extra_types=1
@@ -50,6 +52,7 @@ autocmd FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType proto setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 autocmd FileType go setlocal noexpandtab
 autocmd FileType go setlocal tabstop=4
