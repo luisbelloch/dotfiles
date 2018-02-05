@@ -13,7 +13,3 @@ export PS1='\u@\h:\w$(__git_ps1 " \[\e[1m\](%s)\[\e[0m\]")\$ '
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
-
-# added by Anaconda3 4.4.0 installer
-#export PATH="/Users/luis/anaconda/bin:$PATH"
-
