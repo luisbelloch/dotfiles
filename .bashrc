@@ -4,8 +4,8 @@
 
 eval "$(direnv hook bash)"
 
+# export GOROOT=/usr/local/go
 export JAVA_HOME=$(/usr/libexec/java_home)
-export GOROOT=/usr/local/go
 export YARN_GLOBAL_BIN="$(yarn global bin)"
 export ANACONDA_BIN=$HOME/anaconda3/bin
 export CARGO_BIN=$HOME/.cargo/bin
