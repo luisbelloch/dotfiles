@@ -39,7 +39,17 @@ nnoremap <leader>g :TagbarToggle<CR>
 inoremap <C-Space> <C-x><C-o>
 inoremap <C-@> <C-Space>
 
-autocmd FileType python map <leader>r :w<cr>:!python %<cr>
+autocmd FileType python map <leader>r :w<cr>:!python3 %<cr>
+
+let g:syntastic_python_python_exec = '/usr/local/bin/python3'
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
 
 let g:user_emmet_leader_key='<C-E>'
 
