@@ -32,3 +32,6 @@ export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
 
 #export NVM_DIR="$HOME/.nvm"
 
+[[ -f ~/.fzf.bash ]] && source ~/.fzf.bash
+[[ -f ~/.fzf.opts ]] && source ~/.fzf.opts
+
