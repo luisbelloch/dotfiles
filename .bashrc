@@ -1,5 +1,15 @@
 #!/bin/bash
 
+shopt -s histappend
+shopt -s cmdhist
+# export PROMPT_COMMAND='history -a'
+export HISTSIZE=10000
+export HISTFILESIZE=5000
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE="&:[ ]*:exit:ls:la:bg:fg:history:clear"
+export HISTTIMEFORMAT='%FT%T '
+export CDPATH=".:~:~/src:~/src/flowable-platform"
+
 #[[ -s "/Users/luis/.gvm/bin/gvm-init.sh" ]] && source "/Users/luis/.gvm/bin/gvm-init.sh"
 
 eval "$(direnv hook bash)"
