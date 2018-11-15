@@ -1,12 +1,12 @@
 It contains configurations for vim, bash, tmux and others.
 
-Install some dependencies first and then copy or symlink dot files as required. No install script, sorry.
+Install some dependencies first and then copy or symlink dot files as required via `homebrew`:
 
 ```
-$ brew install ctags direnv macvim cscope tmux
+$ <brew.txt xargs brew install
 ```
 
-It assumes [Go](http://golang.org/) is installed.
+There's a `init.sh` script included you could use to add some symlinks to your home folder.
 
 Vim plugins are managed using [Vim package manager](http://vimhelp.appspot.com/repeat.txt.html#packages), and each plugin is set as git submodule. Color schemes were directly added to the repo:
 
