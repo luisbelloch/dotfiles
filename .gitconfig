@@ -1,0 +1,13 @@
+[user]
+	name = Luis Belloch
+	email = luis@luisbelloch.es
+[alias]
+	tree = log --decorate --oneline --graph
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = /Users/luis/.gitignore_global
+
