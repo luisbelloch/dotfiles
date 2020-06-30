@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/Dockerfile"]
 	path = .vim/pack/luisbelloch/start/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim
+[submodule ".vim/pack/luisbelloch/start/ack.vim"]
+	path = .vim/pack/luisbelloch/start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule ".vim/pack/luisbelloch/start/bullets.vim"]
+	path = .vim/pack/luisbelloch/start/bullets.vim
+	url = https://github.com/dkarter/bullets.vim.git
