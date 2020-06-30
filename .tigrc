@@ -2,3 +2,5 @@ set refresh-mode = periodic
 set refresh-interval = 1
 set line-graphics = utf-8
 
+color cursor 15 241
+
