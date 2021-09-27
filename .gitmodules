@@ -31,3 +31,6 @@
 [submodule ".vim/pack/luisbelloch/start/bullets.vim"]
 	path = .vim/pack/luisbelloch/start/bullets.vim
 	url = https://github.com/dkarter/bullets.vim.git
+[submodule ".vim/pack/luisbelloch/start/dracula"]
+	path = .vim/pack/luisbelloch/start/dracula
+	url = https://github.com/dracula/vim.git
