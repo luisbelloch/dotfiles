@@ -2,7 +2,9 @@ export CLICOLOR=1
 export LSCOLORS=gxFxCxDxBxegedabagaced
 alias la='ls -lah'
 
-export PS1='\u@\h:\w$(__git_ps1 " \[\e[1m\](%s)\[\e[0m\]")\$ '
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
