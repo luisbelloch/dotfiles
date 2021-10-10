@@ -8,7 +8,6 @@ syntax on
 filetype plugin indent on
 set encoding=utf-8
 set guifont=SF\ Mono:h16
-" set guifont=Source\ Code\ Pro\ Light:h12
 
 set guioptions-=r " right scrollbar
 set guioptions-=L " left scrollbar
@@ -31,6 +30,8 @@ set hlsearch
 set ignorecase
 set smartcase
 " set shortmessage-=S
+
+set clipboard+=unnamedplus
 
 let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
