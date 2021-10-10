@@ -10,6 +10,12 @@ use_sdk() {
   done
 }
 
+use_java() {
+  export JAVA_HOME=$(jabba link $1)/Contents/Home
+  load_prefix "$JAVA_HOME"
+  PATH_add "$JAVA_HOME" 
+}
+
 use_nvm() {
   local node_version=$1
 
