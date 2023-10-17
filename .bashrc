@@ -16,21 +16,30 @@ export TZ=Europe/Madrid
 [[ -f ~/.fzf.bash ]] && source ~/.fzf.bash
 [[ -f ~/.fzf.opts ]] && source ~/.fzf.opts
 
+[[ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]] && . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+
 export BREW_SBIN=/usr/local/sbin
 export GNU_BIN=/usr/local/opt/gnu-tar/libexec/gnubin
-export PATH=~/.bin:$GNU_BIN:$BREW_SBIN:$PATH
+export YARN_BIN="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin"
+export RUST_BIN="$HOME/.cargo/bin"
+export BUN_INSTALL="$HOME/.bun"
+export PATH=~/.bin:$GNU_BIN:$BREW_SBIN:$YARN_BIN:$RUST_BIN:$BUN_INSTALL/bin:$PATH
+
+alias la='ls -lah'
+alias vim='nvim'
 
 # export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
+export VPN_USERNAME=luis.belloch@flywire.com
 #export http_proxy=http://user:password@127.0.0.1:3128
 #export https_proxy=$http_proxy
 #export ftp_proxy=$http_proxy
 #export rsync_proxy=$http_proxy
 #export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
 
-# export NVM_DIR="$HOME/.nvm"
-# [[ -s "$NVM_DIR/nvm.sh" ]] && . "$NVM_DIR/nvm.sh"
-# [[ -s "$NVM_DIR/bash_completion" ]] && . "$NVM_DIR/bash_completion"
+export NVM_DIR="$HOME/.nvm"
+[[ -s "$NVM_DIR/nvm.sh" ]] && . "$NVM_DIR/nvm.sh"
+[[ -s "$NVM_DIR/bash_completion" ]] && . "$NVM_DIR/bash_completion"
 
 # export SDKMAN_DIR="/Users/luis.belloch/.sdkman"
 # [[ -s "/Users/luis.belloch/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/luis.belloch/.sdkman/bin/sdkman-init.sh"
