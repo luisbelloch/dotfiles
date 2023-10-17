@@ -23,5 +23,6 @@ ln -f -s $repo/code/keybindings.json "$VSCODECFG/keybindings.json"
 ln -f -s $repo/code/settings.json "$VSCODECFG/settings.json"
 ln -f -s $repo/code/snippets "$VSCODECFG/snippets"
 
+git config --global core.excludesFile '~/.gitignore'
 git config --global alias.tree "log --oneline --decorate --graph"
 
