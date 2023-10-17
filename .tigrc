@@ -3,4 +3,6 @@ set refresh-interval = 1
 set line-graphics = utf-8
 
 color cursor 15 241
+color title-blur 51 235 bold
+color title-focus 51 232 bold reverse
 
