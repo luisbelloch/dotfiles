@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+e cmd+e",
+    "command": "workbench.action.minimizeOtherEditors"
+  },
+  {
+    "key": "cmd+r",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+t",
+    "command": "extension.goToSpec",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "-extension.goToSpec",
+    "when": "editorTextFocus"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "ruby.activerecord_logs": {
+    "scope": "ruby",
+    "prefix": "arlog",
+    "body": ["ActiveRecord::Base.logger = Logger.new(STDOUT)"]
+  },
+  "ruby.require": {
+    "scope": "ruby",
+    "prefix": "r",
+    "body": ["require '$0'"]
+  },
+  "ruby.lambda": {
+    "scope": "ruby",
+    "prefix": "l",
+    "body": ["{ |$1| $0 }"]
+  },
+  "ruby.lambda_block": {
+    "scope": "ruby",
+    "prefix": "lb",
+    "body": ["do |$1|", "  $0", "end"]
+  },
+  "ruby.puts": {
+    "scope": "ruby",
+    "prefix": "pd",
+    "body": ["puts \"🌕 $1: #{$1}$0\""]
+  },
+  "rspec.describe": {
+    "scope": "ruby",
+    "prefix": "desc",
+    "body": ["describe '$2' do", "  $0", "end"]
+  },
+  "rspec.it": {
+    "scope": "ruby",
+    "prefix": "it",
+    "body": ["it '$1' do", "  $0", "end"]
+  },
+  "rspec.context": {
+    "scope": "ruby",
+    "prefix": "ctx",
+    "body": ["context '$2' do", "  $0", "end"]
+  },
+  "rspec.allow": {
+    "scope": "ruby",
+    "prefix": "allow",
+    "body": ["allow($1).to receive($0)"]
+  },
+  "rspec.expect": {
+    "scope": "ruby",
+    "prefix": "expect",
+    "body": ["expect($1).to have_received($0)"]
+  }
+}

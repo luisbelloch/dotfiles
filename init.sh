@@ -18,5 +18,10 @@ ln -f -s $repo/.vim
 ln -f -s $repo/.vimrc
 popd > /dev/null
 
+readonly VSCODECFG="~/Library/Application Support/Code/User"
+ln -f -s $repo/code/keybindings.json "$VSCODECFG/keybindings.json"
+ln -f -s $repo/code/settings.json "$VSCODECFG/settings.json"
+ln -f -s $repo/code/snippets "$VSCODECFG/snippets"
+
 git config --global alias.tree "log --oneline --decorate --graph"
 

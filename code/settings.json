@@ -1,0 +1,52 @@
+{
+  "update.mode": "none",
+  "editor.fontFamily": "'JetBrains Mono', Iosevka, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderIndentGuides": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "files.trimTrailingWhitespace": true,
+  "ruby.codeCompletion": false,
+  "ruby.format": false,
+  "ruby.intellisense": false,
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": false,
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 1,
+  "workbench.tree.renderIndentGuides": "none",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false
+  },
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+}

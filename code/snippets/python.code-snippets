@@ -1,0 +1,14 @@
+{
+	"lambda": {
+		"prefix": "l",
+		"body": [
+			"lambda ${1:x}: ${2:x}"
+		]
+	},
+	"p": {
+		"prefix": "p",
+		"body": [
+			"print($0)"
+		]
+	}
+}
