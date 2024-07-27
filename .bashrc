@@ -26,6 +26,7 @@ export TZ=Europe/Madrid
 # export RUST_BIN="$HOME/.cargo/bin"
 # export BUN_INSTALL="$HOME/.bun"
 # export PATH=~/.bin:$GNU_BIN:$BREW_SBIN:$YARN_BIN:$RUST_BIN:$BUN_INSTALL/bin:$PATH
+export PATH=~/.bin:$PATH
 
 alias la='ls -lah'
 alias vim='nvim'

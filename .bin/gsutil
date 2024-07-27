@@ -1,0 +1,3 @@
+#!/bin/sh
+docker run --platform linux/amd64 --rm --volumes-from gcloud-config -w /tmp/current -v $(pwd):/tmp/current google/cloud-sdk gsutil "$@"
+
