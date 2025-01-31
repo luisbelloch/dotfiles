@@ -11,7 +11,7 @@ Plug 'ledger/vim-ledger'
 " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
-Plug '/usr/local/opt/fzf'
+Plug '/opt/homebrew/opt/fzf'
 Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
 
